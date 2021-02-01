@@ -1,0 +1,10 @@
+<div class="contents row">
+  <% @weights.each do |weight| %>
+    <div class="content_post" style="background-image: url(<%= tweet.image %>);">
+      <p><%= weight.weight %></p>
+      <span class="name">
+        <%= weight.name %>
+      </span>
+    </div>
+  <% end %>
+</div>
